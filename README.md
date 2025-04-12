@@ -59,7 +59,6 @@ Full outline: [Study Plan – Days 1 to 10](docs/cronograma_dia1_a_10.md)
 ## 📖 Daily Study Logs
 
 - [Day 1 — EDA & Data Taxonomy](logs/2025-04-08.md)
-- [Day 2 — Location & Variability](logs/2025-04-09.md)
 - *(More to be added daily...)*
 
 ---
