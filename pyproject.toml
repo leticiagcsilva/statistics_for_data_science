@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "statistics-for-data-science"
+version = "0.1.0"
+description = "Study journal based on the book 'Practical Statistics for Data Scientists' using Python"
+authors = ["Leticia Gomes <leticiagomes.datascience@gmail.com>"]
+packages = [{ include = "src/statistics_for_data_science" }]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.26"
+pandas = "^2.2"
+matplotlib = "^3.8"
+seaborn = "^0.13"
+jupyter = "^1.0"
+taskipy = "^1.12"
+nbformat = "^5.10.4"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "*"
+
+[tool.taskipy.tasks]
+notebook = "jupyter notebook notebooks/"
+docs = "mkdocs serve"

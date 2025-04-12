@@ -1,0 +1,8 @@
+site_name: Statistics for Data Science — A Professional Study Journey in Python
+
+nav:
+  - Home: index.md
+  - Notebooks:
+      - Chapter 1: 
+          - Exploratory Data Analysis: notebooks/chapter_01_exploratory_data_analysis.ipynb
+          - Data Taxonomy and Performance: notebooks/taxonomy_and_performance.ipynb
