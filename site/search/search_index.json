@@ -1,0 +1,1 @@
+{"config":{"lang":["en"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"]},"docs":[{"location":"","title":"Statistics for Data Scientists","text":"<p>This documentation supports my learning journey based on Practical Statistics for Data Scientists: 50 Essential Concepts using Python.</p> <p>Explore the notebooks for code, concepts, and visualizations.</p>"}]}

@@ -3,6 +3,9 @@ site_name: Statistics for Data Science — A Professional Study Journey in Pytho
 nav:
   - Home: index.md
   - Notebooks:
-      - Chapter 1: 
-          - Exploratory Data Analysis: notebooks/chapter_01_exploratory_data_analysis.ipynb
-          - Data Taxonomy and Performance: notebooks/taxonomy_and_performance.ipynb
+      - Chapter 1:
+          - Exploratory Data Analysis: notebooks/1.1_exploratory_data_analysis.ipynb
+          - Location & Variability Estimators: notebooks/1.2_location_variability_estimators.ipynb
+theme:
+  name: material
+  language: en

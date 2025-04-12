@@ -1,27 +1,44 @@
-# Statistics for Data Science with Python ver
+# 📊 Statistics for Data Science with Python
 
-A professional study journey based on the book *Practical Statistics for Data Scientists: 50 Essential Concepts* by Peter Bruce and Andrew Bruce.  
-All topics are translated into practical Python implementations, with a focus on observability, reliability, and real-world data scenarios.
+A hands-on and professional study journey based on the book  
+**_Practical Statistics for Data Scientists: 50 Essential Concepts_**  
+by *Peter Bruce* and *Andrew Bruce*
+
+This repository translates key statistical concepts into **real-world Python implementations**, with strong emphasis on **observability**, **reliability engineering (SRE)**, and **data-driven decision making** in production systems.
 
 ---
 
-## 📌 Purpose
+## 🎯 Purpose
 
-This repository serves both as a structured study log and a professional showcase, aiming to:
+This project serves as both a **learning log** and a **technical showcase**, designed to:
 - Solidify foundational knowledge in applied statistics
-- Explore statistical thinking through reproducible Python code
-- Apply concepts to real-world data and production-inspired use cases (SRE, metrics, incidents, SLIs, etc.)
-- Document progress with MkDocs, versioning with Poetry, and automation with Taskipy
+- Build a professional portfolio using real logs and datasets
+- Explore statistical thinking through code and visualizations
+- Apply each topic to real-world cases (e.g., incidents, SLIs/SLOs, system behavior)
+- Use tools such as Poetry, MkDocs, and Taskipy for reproducibility and structure
 
 ---
 
 ## ⚙️ Tools and Stack
 
-- **Python 3.11+**
+- **Python 3.10+**
 - **[Poetry](https://python-poetry.org/)**: dependency and virtual environment management
 - **[Taskipy](https://pypi.org/project/taskipy/)**: task automation (`mkdocs`, notebooks)
 - **[MkDocs](https://www.mkdocs.org/)**: project documentation
 - **[Jupyter Notebooks](https://jupyter.org/)**: analysis and visualizations
+
+---
+
+## 📚 Chapters & Notebooks
+
+| Chapter | Title                                         | Notebook Link |
+|---------|-----------------------------------------------|----------------|
+| 1       | Exploratory Data Analysis                     | [chapter_01_exploratory_data_analysis.ipynb](notebooks/chapter_01_exploratory_data_analysis.ipynb) |
+| 1 (pt.2)| Location & Variability Estimators             | [chapter_02_location_variability_estimators.ipynb](notebooks/chapter_02_location_variability_estimators.ipynb) |
+| ...     | *(Upcoming)*                                  | *(To be published)* |
+
+> All notebooks use real log datasets (Apache, HDFS) from [LogHub](https://github.com/logpai/loghub).
+
 
 ---
 
@@ -41,46 +58,24 @@ This repository serves both as a structured study log and a professional showcas
 
 ---
 
-## 📚 Topics Covered
-
-Each notebook focuses on a group of related concepts from the book, using real or public datasets (Kaggle, APIs). Topics include:
-- Exploratory Data Analysis (EDA)
-- Data taxonomy and type optimization
-- Location & variability estimators
-- Percentiles and SLIs/SLOs
-- Bootstrap and resampling
-- Hypothesis testing (deploys, alerts, incidents)
-- Tests t, ANOVA, and chi-square for platform experimentation
-
-Full outline: [Study Plan – Days 1 to 10](docs/cronograma_dia1_a_10.md)
-
----
-
-## 📖 Daily Study Logs
-
-- [Day 1 — EDA & Data Taxonomy](logs/2025-04-08.md)
-- *(More to be added daily...)*
-
----
-
-## 🚀 How to Run
+## 🚀 Getting Started
 
 ```bash
-# install dependencies
+# Install dependencies
 poetry install
 
-# activate environment
+# Activate environment
 source $(poetry env info --path)/bin/activate
 
-# open notebook server
+# Launch notebooks
 poetry run task notebook
 
-# serve documentation
+# Serve docs
 poetry run task docs
 ```
 
 ---
 
-## 📎 License
+## 📄 License
 
-MIT © 2025
+MIT © 2025 — Built with ♥ for learning, reliability, and reproducibility

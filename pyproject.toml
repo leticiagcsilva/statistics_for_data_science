@@ -6,7 +6,7 @@ authors = ["Leticia Gomes <leticiagomes.datascience@gmail.com>"]
 packages = [{ include = "src/statistics_for_data_science" }]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = ">=3.10,<4.0"
 numpy = "^1.26"
 pandas = "^2.2"
 matplotlib = "^3.8"
@@ -17,7 +17,12 @@ nbformat = "^5.10.4"
 
 [tool.poetry.group.dev.dependencies]
 ipykernel = "*"
+mkdocs-material = "^9.6.11"
+mkdocs-jupyter = "^0.25.1"
+scipy = "^1.15.2"
 
 [tool.taskipy.tasks]
 notebook = "jupyter notebook notebooks/"
 docs = "mkdocs serve"
+build = "mkdocs build"
+deploy = "mkdocs gh-deploy --clean"
