@@ -33,8 +33,8 @@ This project serves as both a **learning log** and a **technical showcase**, des
 
 | Chapter | Title                                         | Notebook Link |
 |---------|-----------------------------------------------|----------------|
-| 1       | Exploratory Data Analysis                     | [chapter_01_exploratory_data_analysis.ipynb](notebooks/chapter_01_exploratory_data_analysis.ipynb) |
-| 1 (pt.2)| Location & Variability Estimators             | [chapter_02_location_variability_estimators.ipynb](notebooks/chapter_02_location_variability_estimators.ipynb) |
+| 1       | Exploratory Data Analysis                     | [chapter_01_exploratory_data_analysis.ipynb](notebooks/1.1_exploratory_data_analysis.ipynb) |
+| 1 (pt.2)| Location & Variability Estimators             | [chapter_02_location_variability_estimators.ipynb](notebooks/1.2_location_variability_estimators.ipynb) |
 | ...     | *(Upcoming)*                                  | *(To be published)* |
 
 > All notebooks use real log datasets (Apache, HDFS) from [LogHub](https://github.com/logpai/loghub).
