@@ -35,10 +35,9 @@ This project serves as both a **learning log** and a **technical showcase**, des
 |---------|-----------------------------------------------|----------------|
 | 1       | Exploratory Data Analysis                     | [1.1_exploratory_data_analysis.ipynb](notebooks/1.1_exploratory_data_analysis.ipynb) |
 | 1 (pt.2)| Location & Variability Estimators             | [1.2_location_variability_estimators.ipynb](notebooks/1.2_location_variability_estimators.ipynb) |
-| ...     | *(Upcoming)*                                  | *(To be published)* |
+| 1 (pt.3)| Categorical, Correlation & Multivariate       | [1.3_categorical_correlation_multivariate.ipynb](notebooks/1.3_categorical_correlation_multivariate.ipynb) |
 
 > All notebooks use real log datasets (Apache, HDFS) from [LogHub](https://github.com/logpai/loghub).
-
 
 ---
 

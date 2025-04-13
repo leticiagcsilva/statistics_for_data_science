@@ -6,6 +6,8 @@ nav:
       - Chapter 1:
           - Exploratory Data Analysis: notebooks/1.1_exploratory_data_analysis.ipynb
           - Location & Variability Estimators: notebooks/1.2_location_variability_estimators.ipynb
+          - Categorical, Correlation & Multivariate: notebooks/1.3_categorical_correlation_multivariate.ipynb
+
 theme:
   name: material
   language: en
