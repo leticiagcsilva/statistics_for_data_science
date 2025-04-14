@@ -1,4 +1,4 @@
-# 📊 Statistics for Data Science with Python
+# 📊 Statistics for Data Scientists with Python
 
 A hands-on and professional study journey based on the book  
 **_Practical Statistics for Data Scientists: 50 Essential Concepts_**  
