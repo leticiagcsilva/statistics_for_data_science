@@ -36,7 +36,9 @@ This project serves as both a **learning log** and a **technical showcase**, des
 | 1       | Exploratory Data Analysis                     | [1.1_exploratory_data_analysis.ipynb](notebooks/1.1_exploratory_data_analysis.ipynb) |
 | 1 (pt.2)| Location & Variability Estimators             | [1.2_location_variability_estimators.ipynb](notebooks/1.2_location_variability_estimators.ipynb) |
 | 1 (pt.3)| Categorical, Correlation & Multivariate       | [1.3_categorical_correlation_multivariate.ipynb](notebooks/1.3_categorical_correlation_multivariate.ipynb) |
-| 1 (pt.4)| Distribution Shape & Threshold Design         | [1.4_distribution_analysis_thresholds.ipynb](notebooks/1.4_distribution_analysis_thresholds.ipynb) |
+| 1 (pt.4)| Distribution Shape & Threshold Design             | [1.4_distribution_analysis_thresholds.ipynb](notebooks/1.4_distribution_analysis_thresholds.ipynb) |
+
+> All notebooks use real log datasets (Apache, HDFS) from [LogHub](https://github.com/logpai/loghub).
 
 ---
 
@@ -77,14 +79,3 @@ poetry run task docs
 ## 📄 License
 
 MIT © 2025 — Built with ♥ for learning, reliability, and reproducibility
-
-
-## References
-
-This study project is supported by the following resources:
-
-- Bruce, P., & Bruce, A. (2020). *Practical Statistics for Data Scientists: 50 Essential Concepts* (2nd ed.). O’Reilly Media.
-- Google SRE Team. (2016). *Site Reliability Engineering: How Google Runs Production Systems*. O'Reilly Media.  
-  https://sre.google/books/
-- LogHub Dataset Repository — Apache Logs.  
-  https://github.com/logpai/loghub
