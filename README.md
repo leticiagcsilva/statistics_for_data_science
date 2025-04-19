@@ -4,7 +4,7 @@ A hands-on and professional study journey based on the book
 **_Practical Statistics for Data Scientists: 50 Essential Concepts_**  
 by *Peter Bruce* and *Andrew Bruce*
 
-This repository translates key statistical concepts into **real-world Python implementations**, with strong emphasis on **observability**, **reliability engineering (SRE)**, and **data-driven decision making** in production systems.
+This repository translates key statistical concepts into **real-world Python implementations**.
 
 ---
 
@@ -37,6 +37,7 @@ This project serves as both a **learning log** and a **technical showcase**, des
 | 1 (pt.2)| Location & Variability Estimators             | [1.2_location_variability_estimators.ipynb](notebooks/1.2_location_variability_estimators.ipynb) |
 | 1 (pt.3)| Categorical, Correlation & Multivariate       | [1.3_categorical_correlation_multivariate.ipynb](notebooks/1.3_categorical_correlation_multivariate.ipynb) |
 | 1 (pt.4)| Distribution Shape & Threshold Design         | [1.4_distribution_analysis_thresholds.ipynb](notebooks/1.4_distribution_analysis_thresholds.ipynb) |
+| 2       | Sampling Bias & Mean                          | [2.1_sampling_bias_mean.ipynb](notebooks/2.1_sampling_bias_mean.ipynb) |
 
 ---
 
@@ -88,3 +89,6 @@ This study project is supported by the following resources:
   https://sre.google/books/
 - LogHub Dataset Repository — Apache Logs.  
   https://github.com/logpai/loghub
+- ANEEL Open Data — Reclamações nos 1º e 2º Níveis da Distribuidora.  
+  https://dadosabertos.aneel.gov.br/dataset/reclamacoes-no-1o-e-2o-niveis-da-distribuidora
+
