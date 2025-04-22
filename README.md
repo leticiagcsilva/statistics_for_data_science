@@ -1,4 +1,4 @@
-# 📊 Statistics for Data Scientists with Python
+# Statistics for Data Scientists with Python
 
 A hands-on and professional study journey based on the book  
 **_Practical Statistics for Data Scientists: 50 Essential Concepts_**  
@@ -6,9 +6,8 @@ by *Peter Bruce* and *Andrew Bruce*
 
 This repository translates key statistical concepts into **real-world Python implementations**.
 
----
 
-## 🎯 Purpose
+## Purpose
 
 This project serves as both a **learning log** and a **technical showcase**, designed to:
 - Solidify foundational knowledge in applied statistics
@@ -17,9 +16,8 @@ This project serves as both a **learning log** and a **technical showcase**, des
 - Apply each topic to real-world cases (e.g., incidents, SLIs/SLOs, system behavior)
 - Use tools such as Poetry, MkDocs, and Taskipy for reproducibility and structure
 
----
 
-## ⚙️ Tools and Stack
+## Tools and Stack
 
 - **Python 3.10+**
 - **[Poetry](https://python-poetry.org/)**: dependency and virtual environment management
@@ -27,9 +25,8 @@ This project serves as both a **learning log** and a **technical showcase**, des
 - **[MkDocs](https://www.mkdocs.org/)**: project documentation
 - **[Jupyter Notebooks](https://jupyter.org/)**: analysis and visualizations
 
----
 
-## 📚 Chapters & Notebooks
+## Chapters & Notebooks
 
 | Chapter | Title                                         | Notebook Link |
 |---------|-----------------------------------------------|----------------|
@@ -39,9 +36,8 @@ This project serves as both a **learning log** and a **technical showcase**, des
 | 1 (pt.4)| Distribution Shape & Threshold Design         | [1.4_distribution_analysis_thresholds.ipynb](notebooks/1.4_distribution_analysis_thresholds.ipynb) |
 | 2       | Sampling Bias & Mean                          | [2.1_sampling_bias_mean.ipynb](notebooks/2.1_sampling_bias_mean.ipynb) |
 
----
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```bash
 .
@@ -55,9 +51,8 @@ This project serves as both a **learning log** and a **technical showcase**, des
 └── tasks.py            # Taskipy command shortcuts
 ```
 
----
 
-## 🚀 Getting Started
+## Getting Started
 
 ```bash
 # Install dependencies
@@ -73,9 +68,8 @@ poetry run task notebook
 poetry run task docs
 ```
 
----
 
-## 📄 License
+## License
 
 MIT © 2025 — Built with ♥ for learning, reliability, and reproducibility
 
